@@ -13,7 +13,7 @@ sealed class Cell {
       return;
     }
     if (state > State) {
-      State = state;
+      State = MaxState;
     }
   }
   public void DecrementState() {
